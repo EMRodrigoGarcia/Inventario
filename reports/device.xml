@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <report
+            string="Informe Dispositivo"
+            id="inventario_inventario_report"
+            model="inventario.inventario"
+            report_type="qweb-pdf"
+            name="inventario.report_device_card"
+            attachment_use="True"
+        />
+    </data>
+</odoo>
